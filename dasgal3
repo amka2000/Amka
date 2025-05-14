@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .altamgadam {
+            background-color: #ec0909;
+            width: 400px;
+            height: 400px;
+        }
+        @media screen and (max-width: 900px) {
+            .altamgadam {
+                background-color: aqua;
+                border-radius: 100px;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .altamgadam {
+                background-color: #ff00ff;  
+                border-radius: 200px;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            .altamgadam {
+                background-color: #00ff00;
+                border-radius: 3000px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="altamgadam"></div>
+</body>
+</html>
